@@ -1,5 +1,5 @@
-import { CodeWriter } from './app/CodeWriter'
+import { WriterService } from './app/Writer/CodeWriter'
 import { Main } from './app/Main'
-import { Parser } from './app/Parser'
+import { ParserService } from './app/Parser/ParserService'
 
-const main = new Main(new Parser(), new CodeWriter())
+const main = new Main(new ParserService(), new WriterService())

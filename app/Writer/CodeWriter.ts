@@ -1,6 +1,6 @@
-import { COMMAND_TYPE } from './enums'
+import { COMMAND_TYPE } from '../common/enums'
 
-export class CodeWriter {
+export class WriterService {
   constructor() {}
 
   writeArithmetic(command: string) {}

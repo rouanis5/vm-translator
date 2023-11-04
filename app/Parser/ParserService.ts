@@ -6,9 +6,9 @@
  *
  */
 
-import { COMMAND_TYPE } from './enums'
+import { COMMAND_TYPE } from '../common/enums'
 
-export class Parser {
+export class ParserService {
   constructor() {}
 
   hasMoreLines(): boolean {
